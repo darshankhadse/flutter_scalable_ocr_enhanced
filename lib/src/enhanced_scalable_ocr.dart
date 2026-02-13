@@ -136,7 +136,7 @@ class _EnhancedScalableOCRState extends State<EnhancedScalableOCR> {
 
     // Check if we should stop after detection
     if (widget.detectOnce && text.trim().length >= widget.minTextLength) {
-      _controller._markDetectionComplete(text);
+      _controller.markDetectionComplete(text);
       widget.onDetectionComplete?.call(text);
     }
   }

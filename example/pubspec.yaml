@@ -12,7 +12,7 @@ dependencies:
   flutter_scalable_ocr_enhanced:
     path: ../
   image_picker: ^1.0.0
-  flutter_native_ocr: ^0.2.0
+  flutter_native_ocr: ^0.1.0
 
 dev_dependencies:
   flutter_test:

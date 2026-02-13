@@ -50,7 +50,7 @@ class EnhancedOCRController extends ChangeNotifier {
   }
 
   /// Internal method to mark detection as complete
-  void _markDetectionComplete(String text) {
+  void markDetectionComplete(String text) {
     _detectedText = text;
     _isDetectionComplete = true;
     _isActive = false;
