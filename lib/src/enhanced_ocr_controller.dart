@@ -56,9 +56,4 @@ class EnhancedOCRController extends ChangeNotifier {
     _isActive = false;
     notifyListeners();
   }
-
-  @override
-  void dispose() {
-    super.dispose();
-  }
 }
