@@ -1,0 +1,18 @@
+name: flutter_scalable_ocr_enhanced
+description: An enhanced wrapper around flutter_scalable_ocr with controller support and detectOnce feature to stop camera after text detection.
+version: 1.0.0
+homepage: https://github.com/yourusername/flutter_scalable_ocr_enhanced
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_scalable_ocr: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
